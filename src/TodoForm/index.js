@@ -11,7 +11,6 @@ function TodoForm(){
         setOpenModal
     } =  useContext(TodoContext)
 
-
     const onCancel = () => {
         setOpenModal(false);
     }
